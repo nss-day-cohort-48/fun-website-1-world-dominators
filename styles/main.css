@@ -1,10 +1,12 @@
 body {
-  /*background-image: url("https://cdn.wallpapersafari.com/80/32/bRBCuL.jpg");*/
+  background-image: url("https://cdn.wallpapersafari.com/80/32/bRBCuL.jpg");
   background-color: rgb(71, 139, 216);
   font-family: 'Lobster', cursive;
   text-shadow: 3px 3px 3px #727b80;
+
  }
  .center {
+   color: white;
   text-align: center;
 }
  .flip-card {
@@ -13,7 +15,8 @@ body {
     height: 300px;
     perspective: 1000px;
     padding: 1.15rem;
-    margin: 0.5rem;
+    margin: 1.5rem;
+    margin-bottom: 7rem;
   }
   
   .flip-card-inner {
@@ -54,9 +57,36 @@ section {
   flex-wrap: wrap;
   padding: 1.15rem;
     margin: 0.5rem;
+    color: white;
 }
 
-.three-flip-card, .two-flip-card, .one-flip-card {
-  padding: 1.15rem;
-  margin: 0.5rem;
+
+
+.food_img_person{
+  height: 300px;
+  width: 300px;
+}
+
+.food_cody{
+  margin-bottom: 3rem;
+  background-color: brown;
+}
+
+.food_key{
+  margin-bottom: 3rem;
+  background-color: brown;
+}
+
+.food_nick{
+  margin-bottom: 3rem;
+  background-color: brown;
+}
+
+.food_caleb{
+  margin-bottom: 3rem;
+  background-color: brown;
+}
+
+.one-flip-card {
+  justify-content: bottom;
 }

@@ -4,11 +4,16 @@ body {
   font-family: 'Lobster', cursive;
   text-shadow: 3px 3px 3px #727b80;
  }
+ .center {
+  text-align: center;
+}
  .flip-card {
     background-color: transparent;
     width: 300px;
     height: 300px;
     perspective: 1000px;
+    padding: 1.15rem;
+    margin: 0.5rem;
   }
   
   .flip-card-inner {
@@ -43,3 +48,15 @@ body {
     color: white;
     transform: rotateY(180deg);
   }
+    
+section {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1.15rem;
+    margin: 0.5rem;
+}
+
+.three-flip-card, .two-flip-card, .one-flip-card {
+  padding: 1.15rem;
+  margin: 0.5rem;
+}
